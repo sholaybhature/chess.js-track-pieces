@@ -1,6 +1,6 @@
 {
   "name": "chess.js-track-pieces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given the chess moves list, it gives the final squares of each individual captured pieces, or all pieces.",
   "main": "index.js",
   "type": "module",
