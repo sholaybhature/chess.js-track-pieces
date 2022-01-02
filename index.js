@@ -1,6 +1,4 @@
-// import * as Chess from "chess.js";
-import { Chess } from "chess.js";
-
+import * as Chess from "chess.js";
 let boardNotation = {
   wra: "a1",
   wnb: "b1",
@@ -35,7 +33,6 @@ let boardNotation = {
   bpg: "g7",
   bph: "h7",
 };
-
 /**
  * Given a list of the moves in a chess game, return the squares where the pieces were captured.
  * Basic logic is to track the last move of each piece using a dict, and delete that piece
@@ -43,7 +40,7 @@ let boardNotation = {
  * @param  {String} chessMovesList        all the moves that were played in a game
  * @return {Dict}   finalCapturedPieces   squares where the pieces were captured
  */
-export function processGame(chessMovesList, options = {}) {
+export default function processGame(chessMovesList, options = {}) {
   let chess = new Chess();
   chess.load_pgn(chessMovesList);
   // To keep track of individual chess pieces
