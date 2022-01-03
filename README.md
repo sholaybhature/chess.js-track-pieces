@@ -1,7 +1,7 @@
 Given the chess moves list, it gives the final squares of the pieces. 
 
 Why was this needed: chess.js doesn't track individual pieces and it's 
-difficult to track using the chess.js method as it only gives the piece,
+difficult to track using the chess.js methods as it only gives the piece,
 but not the original square of the piece.
 
 ## Example Code
