@@ -6,7 +6,6 @@ but not the original square of the piece.
 
 ## Example Code
 
-The code below plays a random game of chess:
 
 ```js
 import { processGame } from "chess.js-track-pieces";
