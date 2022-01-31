@@ -4,6 +4,10 @@ Why was this needed: chess.js doesn't track individual pieces and it's
 difficult to track using the chess.js methods as it only gives the piece,
 but not the original square of the piece.
 
+
+```
+npm i chess.js-track-pieces
+```
 ## Example Code
 
 
