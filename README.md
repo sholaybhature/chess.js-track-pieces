@@ -12,7 +12,7 @@ npm i chess.js-track-pieces
 
 
 ```js
-import { processGame } from "chess.js-track-pieces";
+import processGame from "chess.js-track-pieces";
 let chessMoves = `1. d4 Nc6 2. Nf3 d5 3. Nc3 g6 4. e3 Nf6 5. Bd3 Bg7 6. e4 e6 7. e5 Ng4 8. Ng5 Nxd4 9. Qxg4 c5 10. O-O Bxe5 11. f4 Bf6 12. Na4 e5 13. fxe5 Bxg4 14. exf6 c4 15. Re1+ Kf8 16. Bxc4 Nxc2 17. Rb1 Nxe1 18. Bd2 Nc2 19. Bd3 Qc7 20. Rc1 Bf5 21. Rxc2 Qe5 22. Bb4+ Kg8 23. Re2 Qxf6`;
 let res = processGame(chessMoves, { verbose: true });
 console.log(res);
